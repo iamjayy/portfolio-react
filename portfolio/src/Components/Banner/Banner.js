@@ -1,8 +1,15 @@
 import React from "react";
 import "./Banner.css";
 
-const Banner = () => {
-  return <div>About Me</div>;
-};
-
-export default Banner;
+export class Banner extends React.Component {
+  render() {
+    return (
+      <div className="d-flex-c">
+        <article className="banner-text">
+          <h1>{this.props.name}</h1>
+          <p>{this.props.title}</p>
+        </article>
+      </div>
+    );
+  }
+}
