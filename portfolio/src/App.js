@@ -13,8 +13,8 @@ function App() {
       </header> */}
       <LandingPage />
       <Projects />
-      <AboutMe />
       <Contact />
+      <AboutMe />
     </div>
   );
 }

@@ -1,0 +1,96 @@
+.wrapper {
+  display: block;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  word-wrap: break-word;
+}
+
+.text-dark {
+  color: black !important;
+}
+
+.our-blog .meta li {
+  display: inline-block;
+  font-size: 0.8rem;
+}
+
+.our-blog article {
+  border: 1px solid #ddd;
+}
+
+.d-flex-c {
+  display: flex;
+  margin: 0 auto;
+  flex-direction: column;
+}
+
+.d-flex-r {
+  display: flex !important;
+  margin: 0 auto;
+  flex-direction: row;
+}
+
+.container {
+  padding: 6rem;
+}
+.text-center {
+  text-align: center;
+}
+
+.btn {
+  display: inline-block;
+  padding: 8px 18px;
+  text-transform: uppercase;
+  border: 1px solid;
+  cursor: pointer;
+}
+
+.btn,
+.btn.inverse:hover {
+  color: #fff;
+  background-color: #2e8b57;
+}
+
+.btn:hover,
+.btn.inverse {
+  color: inherit;
+  background-color: transparent;
+  border-color: inherit;
+}
+
+.my-2 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.hover2 figure img {
+  transform: rotate(15deg) scale(1.4);
+  transition: 0.3s ease-in-out;
+}
+
+.hover2 figure:hover img {
+  transform: rotate(0) scale(1);
+  opacity: 0.8;
+}
+
+figure {
+  background: #fff;
+  overflow: hidden;
+}
+
+figure:hover + span {
+  bottom: -36px;
+  opacity: 1;
+}
+
+/*PARALLAX 2 */
+.parrallax-2 {
+  background: url("../../img/glaases.jpeg") fixed no-repeat;
+}
+
+.contactMe {
+  background-color: rgba(0, 0, 0, 0.4) !important;
+  border: 5%;
+}
