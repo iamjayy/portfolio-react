@@ -1,14 +1,10 @@
-/*  Banner text  */
 .banner-text {
   color: white;
+  font-size: 35px;
+  text-align: left;
   position: relative;
   top: 250px;
   margin-left: 100px;
   border-left: 3px solid white;
   padding-left: 80px;
-}
-.banner-text p,
-.banner-text h1 {
-  max-width: max-content;
-  background-color: rgba(0, 0, 0, 0.3) !important;
 }
